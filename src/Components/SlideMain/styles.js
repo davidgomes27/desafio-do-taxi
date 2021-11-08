@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 
 export const Container = styled.section`
+    width: 100vw;
     display:flex;
     justify-content:space-evenly;
     align-items:center;
@@ -10,12 +11,13 @@ export const Container = styled.section`
 `
 export const SubContainer = styled.div`
    display:flex;
+   width: 100vw;
     height:48vh;
     flex-direction:column;
     flex-wrap:wrap;
     justify-content:space-evenly;
     align-items:center;
-    overflow:hidden;
+    
 `
 
 export const TitleInput = styled.h2`
@@ -80,6 +82,7 @@ export const Taximg = styled.img`
     position:relative;
     top:45vh;
     right:45vw;
+    
 `
 
 export const InputBox = styled.input`
